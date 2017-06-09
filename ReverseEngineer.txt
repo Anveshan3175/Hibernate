@@ -6,5 +6,13 @@ This file gives information about how to generate xml and java files.
 -> select JBoss Tools <versin number>
 -> Select only Hibernate Tools and install it.
 2. Restart eclipse. Open Data Source Explorer and create data base connection and run the connection
-3. Launch hibernate perspective.
-2.
+3. Create empty java hibernate project.Add all required hib jars.(Don't add any hib config files)
+4. Launch hibernate perspective.
+5. Add configuration, add driver jars (ojdbc12.jar). Run the configuration.
+6. You should see files generated.
+
+
+If you see errors :
+1. Create revenge.xml and exclude all unncessry schemas.
+Run the configuration again. If you error again :
+Edit the configuration that is created,change the hibernate version to lower(from 5.1 to 4.3)
