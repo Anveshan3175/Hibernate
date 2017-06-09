@@ -1,1 +1,10 @@
 
+This file gives information about how to generate xml and java files.
+
+1. First install hibernate tools from JBOSS web site in the eclipse.
+-> Go to eclipse market place and search for Jbosss tools. 
+-> select JBoss Tools <versin number>
+-> Select only Hibernate Tools and install it.
+2. Restart eclipse. Open Data Source Explorer and create data base connection and run the connection
+3. Launch hibernate perspective.
+2.
